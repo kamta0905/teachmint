@@ -1,0 +1,5 @@
+export const ActionTypes = {
+  ADD_ORDER: "ADD_ORDER",
+  CANCEL_ORDER: "CANCEL_ORDER",
+  MOVE_TO_NEXT_STAGE: "MOVE_TO_NEXT_STAGE",
+};

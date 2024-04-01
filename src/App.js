@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import OrderForm from "./views/OrderForm";
+import MainDisplay from "./views/MainDisplay";
+import MainSectionTable from "./views/MainSectionTable";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Pizza Shop</h1>
+      <div className="container">
+        <div className="d-flex align-items-center mb-3 justify-content-between">
+          <h2>Pizza Stages Section</h2>
+          <OrderForm />
+        </div>
+        <MainDisplay />
+        <MainSectionTable />
+      </div>
     </div>
   );
 }
