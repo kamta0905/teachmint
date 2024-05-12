@@ -3,6 +3,7 @@ import "./App.css";
 import OrderForm from "./views/OrderForm";
 import MainDisplay from "./views/MainDisplay";
 import MainSectionTable from "./views/MainSectionTable";
+import CollectDataExelSheet from "./views/CollectDataExelSheet";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </div>
         <MainDisplay />
         <MainSectionTable />
+        <CollectDataExelSheet />
       </div>
     </div>
   );
